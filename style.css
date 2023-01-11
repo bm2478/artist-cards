@@ -1,0 +1,66 @@
+.card{
+    width:220px;
+    border:5px solid black;
+    background-color:yellow;
+    border-radius:20px;
+    margin-top:6px;
+    margin-left:4px;
+
+}
+.photo-section{
+    width:180px;
+    border:5px solid lightslategrey;
+    margin-left:15px;
+}
+.photo{
+    width:180px;
+    height:200px;
+}
+.name{
+    text-align:center;
+}
+p{
+    display:flex;
+    align-items:flex-start;
+    color:white;
+}
+.description{
+    width:180px;
+    border:5px solid sandybrown;
+    background-color:floralwhite;
+    margin-left:15px;
+    margin-top:18px;
+}
+.powerlvl{
+    width:180px;
+    height:20px;
+    border:5px solid black;
+    margin-left:15px;
+}
+.stars{
+    width:20px;
+    height:20px;
+}
+.element{
+    position:absolute;
+    right:0;
+    width:20px;
+    height:20px;
+}
+.rate{
+    width:180px;
+    margin-left:15px;
+    justify-content:flex-end;
+    color:white;
+}
+.card-area{
+    display:flex;
+    flex-wrap:wrap;
+}
+.card:hover{
+    box-shadow:0 8px 16px 0 rgba(153,115,0,1);
+}
+.sticker{
+    position:relative;
+
+}
